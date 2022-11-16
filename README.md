@@ -20,7 +20,7 @@ O projeto web consiste em criar uma loja virtual através da utilização da lin
 
 Proposta de desenvolvimento:
 
-Tendo como base o trabalho elaborado nas disciplinas de HTML, CSS e JavaScript (um catálogo web com o tema de ciclismo) o projeto atual buscou aplicar neste modelo de catálogo a linguagem React JS com a utilização do framework Material UI, buscando a dinamização de todo o HMTL e CSS com ligação ao backend via API.
+Tendo como base o trabalho elaborado nas disciplinas de HTML, CSS e JavaScript o projeto atual buscou aplicar neste modelo de catálogo a linguagem React JS com a utilização do framework Material UI, buscando a dinamização de todo o HMTL e CSS com ligação ao backend via API.
 
 No desenvolvimento do projeto foram aplicados conceitos como:
 

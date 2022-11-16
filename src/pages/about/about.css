@@ -1,0 +1,89 @@
+body,
+html {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: white;
+}
+
+.boxTotal {
+  padding: 20px !important;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 4px 4px 12px -6px rgba(0, 0, 0, 0.6);
+}
+
+.imageList {
+  grid-template-columns: repeat(5, 1fr) !important;
+}
+
+.modal {
+  position: absolute;
+  height: auto;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid white;
+  box-shadow: 4px 4px 12px -6px rgba(0, 0, 0, 0.6);
+}
+
+.modalText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  padding-top: 0px !important;
+}
+
+.imageModalBox {
+  height: 90%;
+  align-content: center;
+  padding-left: 0px !important;
+  padding-bottom: 16px;
+}
+
+.imageModal {
+  filter: drop-shadow(4px 4px 6px #222);
+  width: 100%;
+}
+
+.flagSpan {
+  height: 15px !important;
+  margin-left: 10px;
+}
+
+.flag {
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  .imageList {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .imageModalBox {
+    display: flex;
+    justify-content: center;
+  }
+  .imageModal {
+    width: 50%;
+  }
+
+  .modalText {
+    padding-right: 16px !important;
+    align-items: center;
+  }
+
+  .country {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .imageList {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}

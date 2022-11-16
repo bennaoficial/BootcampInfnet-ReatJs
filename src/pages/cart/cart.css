@@ -1,0 +1,64 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: white;
+}
+
+.boxTotal {
+  padding: 20px !important;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 4px 4px 12px -6px rgba(0, 0, 0, 0.6);
+}
+
+.stackQuantity input {
+  width: 30px;
+}
+
+.stackQuantity input::-webkit-outer-spin-button,
+.stackQuantity input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.stackQuantity input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.stackImage span {
+  width: 250px;
+}
+
+.stackImage img {
+  width: 100%;
+  height: auto;
+}
+
+.listTotal li {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.stackPrice {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 900px) {
+  .stackPrice {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stackPrice>div {
+    padding-bottom: 15px;
+    padding-left: 0px;
+    box-sizing: border-box;
+  }
+
+  .listCart {
+    flex-direction: column;
+  }
+}
